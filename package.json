@@ -1,0 +1,14 @@
+{
+  "name": "pg-promise-reject-repro",
+  "version": "1.0.0",
+  "description": "a quick test case showing incorrect async/await behavior",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-postgres": "^0.6.2"
+  }
+}
