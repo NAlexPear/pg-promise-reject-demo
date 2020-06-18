@@ -1,4 +1,4 @@
-const { Pool } = require('node-postgres')
+const { Pool } = require('pg')
 
 const pool = new Pool({
   host: 'postgres',

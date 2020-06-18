@@ -9,6 +9,6 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "node-postgres": "^0.6.2"
+    "pg": "^8.2.1"
   }
 }
