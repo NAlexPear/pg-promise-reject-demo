@@ -20,7 +20,7 @@ const testProcess = async () => {
     // this should never appear under any circumstance
     console.log('failing query', failingResult)
   } catch(error) {
-    // this ☝️  be the SQL error ("no relation notatable", etc) from the second query
+    // this ^ should be the SQL error ("no relation notatable", etc) from the second query
     // but that SQL error is never registered as 'caught'
     // and this error never appears in the console
     console.error(error)

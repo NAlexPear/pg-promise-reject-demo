@@ -1,7 +1,7 @@
 version: '3'
 services:
   postgres:
-    image: postgres:alpine
+    image: postgres:12.3-alpine
     environment:
       POSTGRES_PASSWORD: mysupersecretpassword
       POSTGRES_USER: test
@@ -9,8 +9,10 @@ services:
     expose:
     - 5432
   app:
-    image: node
+    image: node:14.4.0
     command: yarn start
     working_dir: /home/node
     volumes:
       - ./:/home/node
+    links:
+      - postgres
