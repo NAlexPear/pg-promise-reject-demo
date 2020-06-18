@@ -7,11 +7,6 @@ buffer-writer@2.0.0:
   resolved "https://registry.yarnpkg.com/buffer-writer/-/buffer-writer-2.0.0.tgz#ce7eb81a38f7829db09c873f2fbb792c0c98ec04"
   integrity sha512-a7ZpuTZU1TRtnwyCNW3I5dc0wWNC3VR9S++Ewyk2HHZdrO3CQJqSpd+95Us590V6AL7JqUAH2IwZ/398PmNFgw==
 
-node-postgres@^0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/node-postgres/-/node-postgres-0.6.2.tgz#e06ae84aacf1634fadc2ed72427c8cd55e2d945b"
-  integrity sha512-wjaW+KutPOFemtBDuogyy6OMMOs2vpSOwuqbUhFUbrDEOTk66K2lmRyvOdO4t26qGtnPyZXQ4bAuF17cBhi5aQ==
-
 packet-reader@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/packet-reader/-/packet-reader-1.0.0.tgz#9238e5480dedabacfe1fe3f2771063f164157d74"
